@@ -23,9 +23,8 @@ class Triangle
    #raise TriangleError
     triangle = [(side_1 + side_2 > side_3), (side_1 + side_3 > side_2), (side_2 + side_3 > side_1)}
     [side_1, side_2, side_3].each do |side|
-        triangle << false if side <= 0 
-          raise TriangleError
-      end
+      triangle << false if side <= 0 
+        raise TriangleError
     end
   end
 
