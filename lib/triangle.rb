@@ -15,12 +15,11 @@ class Triangle
       :isosceles
     else 
       :scalene
-    
     end
   end
   
   def valid?
-  
+    
   end
 end
 
