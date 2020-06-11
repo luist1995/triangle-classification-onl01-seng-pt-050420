@@ -19,7 +19,7 @@ class Triangle
   end
   
   def valid?
-    
+    side_1 != 0
   end
 end
 
