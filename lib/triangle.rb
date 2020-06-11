@@ -26,10 +26,11 @@ class Triangle
     [side_1, side_2, side_3].each do |side|
       triangle << false if side <= 0 
         raise TriangleError if triangle.include?(false)
-    end
+    
   end
 
 end
 
 class TriangleError < StandardError
+end
 end
