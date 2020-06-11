@@ -21,7 +21,7 @@ class Triangle
   def valid?
     #side_1 <= 0 || side_2 <= 0 || side_3 <= 0 || side_1 + side_2 <= side_3 || side_2 + side_3 <= side_1 || side_1 + side_3 <= side_2
    #raise TriangleError
-    triangle = [(side_1 + side_2 > side_3), (side_1 + side_3 > side_2), (side_2 + side_3 > side_1)}
+    triangle = [(side_1 + side_2 > side_3), (side_1 + side_3 > side_2), (side_2 + side_3 > side_1)]
     [side_1, side_2, side_3].each do |side|
       triangle << false if side <= 0 
         raise TriangleError
