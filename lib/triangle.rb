@@ -13,7 +13,8 @@ class Triangle
       :equilateral
     elsif side_1 == side_2
       :isosceles
-    else scalene
+    else 
+      :scalene
     
     end
   end
